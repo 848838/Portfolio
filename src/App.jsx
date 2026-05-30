@@ -2,78 +2,81 @@ import { useEffect, useState } from "react";
 
 const portfolioData = {
   name: "Shubham Jha",
-  title: "Designer & Developer",
+ title: "Full-Stack Developer & Product Designer",
 
-  tagline: "Designing systems & shipping products",
+ tagline: "Building digital products through design, development, and strategy.",
+
 
   about:
-    "Graphic Designer & Full-Stack Developer with 1.4+ years at GMS Private Ltd — bridging brand, marketing, and code into experiences that actually work.",
+     "Graphic Designer & Full-Stack Developer with 1.4+ years of professional experience at GMS Private Ltd. Specialized in branding, marketing technology, SEO, CMS management, and full-stack application development, delivering user-focused digital experiences from concept to deployment.",
 
-  designProjects: [
-    {
-      id: 1,
-      title: "Email Campaigns",
-      category: "SFMC & Mailchimp",
-      desc: "Managed end-to-end email campaigns using Salesforce Marketing Cloud and Mailchimp.",
-      link: "https://www.behance.net/knowledgeworld11",
-    },
+ designProjects: [
+  {
+    id: 1,
+    title: "Email Campaigns",
+    category: "SFMC & Mailchimp",
+    desc: "Executed high-performing email marketing campaigns using Salesforce Marketing Cloud and Mailchimp, including automation, audience segmentation, and performance optimization.",
+    link: "https://www.behance.net/knowledgeworld11",
+  },
 
-    {
-      id: 2,
-      title: "Brand & Social",
-      category: "Visual Design",
-      desc: "Designed branding materials, banners, and marketing assets.",
-      link: "https://www.behance.net/knowledgeworld11",
-    },
+  {
+    id: 2,
+    title: "Brand & Social",
+    category: "Visual Design",
+    desc: "Created branding systems, social media creatives, advertising banners, and marketing collateral for digital campaigns.",
+    link: "https://www.behance.net/knowledgeworld11",
+  },
 
-    {
-      id: 3,
-      title: "CMS & SEO",
-      category: "Web Management",
-      desc: "Handled CMS management and implemented SEO strategies.",
-      link: "https://www.behance.net/knowledgeworld11",
-    },
+  {
+    id: 3,
+    title: "CMS & SEO",
+    category: "Web Management",
+    desc: "Managed website content through CMS platforms while implementing SEO best practices to improve search visibility and user engagement.",
+    link: "https://www.behance.net/knowledgeworld11",
+  },
 
-    {
-      id: 4,
-      title: "Triphive Adventures",
-      category: "Web Design",
-      desc: "Designed branding and digital assets for Triphive Adventures.",
-      link: "https://www.behance.net/knowledgeworld11",
-    },
-  ],
+  {
+    id: 4,
+    title: "Triphive Adventures",
+    category: "Web Design",
+    desc: "Developed brand identity, promotional creatives, and digital assets to strengthen online presence and customer engagement.",
+    link: "https://www.behance.net/knowledgeworld11",
+  },
+],
 
   devProjects: [
-    {
-      id: 5,
-      title: "Chatrix",
-      category: "Mobile App",
-      desc: "Real-time encrypted chat application built using React Native.",
-      link: "https://github.com/848838",
-    },
   {
-      id: 5.3,
-      title: "Twinno",
-      category: "Mobile App",
-      desc: "Real-time encrypted chat application built using React Native.",
-      link: "https://github.com/848838",
-    },
-    {
-      id: 6,
-      title: "Instagram Clone",
-      category: "Full Stack App",
-      desc: "Instagram clone with feed, auth, stories, and real-time interactions.",
-      link: "https://www.linkedin.com/in/shubham-jha-417428251/?skipRedirect=true",
-    },
+    id: 5,
+    title: "Chatrix",
+    category: "Mobile App",
+    desc: "Cross-platform real-time messaging application featuring end-to-end encryption, authentication, media sharing, and live communication.",
+    link: "https://github.com/848838",
+  },
 
-    {
-      id: 7,
-      title: "Zomato Clone",
-      category: "iOS App",
-      desc: "Food delivery app with restaurant listings and order flow.",
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:7263129719687061504/",
-    },
-  ],
+  {
+    id: 5.3,
+    title: "Twinno",
+    category: "Mobile App",
+    desc: "Modern social communication platform built with React Native, focused on real-time interactions and seamless user experience.",
+    link: "https://github.com/848838",
+  },
+
+  {
+    id: 6,
+    title: "Instagram Clone",
+    category: "Full Stack App",
+    desc: "Full-stack social media application featuring authentication, feeds, stories, user profiles, and real-time engagement features.",
+    link: "https://www.linkedin.com/in/shubham-jha-417428251/?skipRedirect=true",
+  },
+
+  {
+    id: 7,
+    title: "Zomato Clone",
+    category: "iOS App",
+    desc: "Mobile food ordering platform with restaurant discovery, menu browsing, cart management, and seamless ordering workflows.",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7263129719687061504/",
+  },
+],
 };
 
 const NavBar = ({ active }) => {
@@ -470,10 +473,10 @@ export default function Portfolio() {
           margin: "0 auto",
         }}
       >
-        <SectionTitle
-          title="Design Work"
-          subtitle="Brand assets, campaigns, and visual experiences designed for impact."
-        />
+     <SectionTitle
+  title="Design Work"
+  subtitle="Creative solutions across branding, email marketing, digital campaigns, and user-focused visual design."
+/>
 
         <div
           style={{
@@ -499,10 +502,10 @@ export default function Portfolio() {
           margin: "0 auto",
         }}
       >
-        <SectionTitle
-          title="Development"
-          subtitle="Mobile apps, web platforms, and scalable products."
-        />
+<SectionTitle
+  title="Development"
+  subtitle="Cross-platform mobile applications, full-stack web solutions, and scalable digital products."
+/>
 
         <div
           style={{
@@ -543,9 +546,7 @@ export default function Portfolio() {
             margin: "0 auto 2rem",
           }}
         >
-          Based in New Delhi. I work across branding,
-          development, marketing, and mobile applications —
-          combining design thinking with product execution.
+        Based in New Delhi, I combine design, development, and digital marketing to build impactful products. My experience spans branding, marketing technology, web platforms, and mobile applications, with a strong focus on user experience and business outcomes.
         </p>
 
         <div
@@ -643,7 +644,7 @@ export default function Portfolio() {
             fontSize: 14,
           }}
         >
-          © 2026 Shubham Jha
+          © 2026 Shubham Jha • Designer • Developer • Solver
         </p>
       </footer>
     </div>

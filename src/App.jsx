@@ -16,7 +16,7 @@ const portfolioData = {
     title: "Email Campaigns",
     category: "SFMC & Mailchimp",
     desc: "Executed high-performing email marketing campaigns using Salesforce Marketing Cloud and Mailchimp, including automation, audience segmentation, and performance optimization.",
-    link: "https://www.behance.net/knowledgeworld11",
+   
   },
 
   {
@@ -32,7 +32,7 @@ const portfolioData = {
     title: "CMS & SEO",
     category: "Web Management",
     desc: "Managed website content through CMS platforms while implementing SEO best practices to improve search visibility and user engagement.",
-    link: "https://www.behance.net/knowledgeworld11",
+   
   },
 
   {
@@ -40,7 +40,7 @@ const portfolioData = {
     title: "Triphive Adventures",
     category: "Web Design",
     desc: "Developed brand identity, promotional creatives, and digital assets to strengthen online presence and customer engagement.",
-    link: "https://www.behance.net/knowledgeworld11",
+    
   },
 ],
 
@@ -50,7 +50,7 @@ const portfolioData = {
     title: "Chatrix",
     category: "Mobile App",
     desc: "Cross-platform real-time messaging application featuring end-to-end encryption, authentication, media sharing, and live communication.",
-    link: "https://github.com/848838",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7293975144035729408/",
   },
 
   {
@@ -58,7 +58,7 @@ const portfolioData = {
     title: "VYNQ",
     category: "Mobile App",
     desc: "Modern social communication platform built with React Native, focused on real-time interactions and seamless user experience.",
-    link: "https://github.com/848838",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7472915351580823552/",
   },
   {
     id: 5.5,
@@ -72,7 +72,7 @@ const portfolioData = {
     title: "Instagram Clone",
     category: "Full Stack App",
     desc: "Full-stack social media application featuring authentication, feeds, stories, user profiles, and real-time engagement features.",
-    link: "https://www.linkedin.com/in/shubham-jha-417428251/?skipRedirect=true",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7263129719687061504/?originTrackingId=EDzKLDxuQK6sr21GJpLpkg%3D%3D",
   },
 
   {
@@ -80,7 +80,7 @@ const portfolioData = {
     title: "Zomato Clone",
     category: "iOS App",
     desc: "Mobile food ordering platform with restaurant discovery, menu browsing, cart management, and seamless ordering workflows.",
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:7263129719687061504/",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7282757764383186944/",
   },
 ],
 };

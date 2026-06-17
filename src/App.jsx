@@ -55,12 +55,18 @@ const portfolioData = {
 
   {
     id: 5.3,
-    title: "Twinno",
+    title: "VYNQ",
     category: "Mobile App",
     desc: "Modern social communication platform built with React Native, focused on real-time interactions and seamless user experience.",
     link: "https://github.com/848838",
   },
-
+  {
+    id: 5.5,
+    title: "GoSwift",
+    category: "Mobile App",
+    desc: "Built a full-stack Uber-clone with React Native, Node.js and Socket.IO featuring real-time ride matching, GPS tracking, OTP auth, captain verification, and an admin analytics dashboard.",
+    link: "https://github.com/848838/GoSwift",
+  },
   {
     id: 6,
     title: "Instagram Clone",

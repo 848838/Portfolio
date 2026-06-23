@@ -67,6 +67,13 @@ const portfolioData = {
     desc: "Built a full-stack Uber-clone with React Native, Node.js and Socket.IO featuring real-time ride matching, GPS tracking, OTP auth, captain verification, and an admin analytics dashboard.",
     link: "https://github.com/848838/GoSwift",
   },
+      {
+    id: 5.8,
+    title: "Movie-browser",
+    category: "Web App",
+    desc: "Built a full-stack Movie browsing Web App with React js, Node.js featuring real-time trend Movie Watches matching.",
+    link: "https://github.com/848838/GoSwift",
+  },
   {
     id: 6,
     title: "Instagram Clone",

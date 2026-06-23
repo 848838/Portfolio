@@ -72,7 +72,7 @@ const portfolioData = {
     title: "Movie-browser",
     category: "Web App",
     desc: "Built a full-stack Movie browsing Web App with React js, Node.js featuring real-time trend Movie Watches matching.",
-    link: "https://github.com/848838/GoSwift",
+    link: "https://movie-universe-one.vercel.app/",
   },
   {
     id: 6,

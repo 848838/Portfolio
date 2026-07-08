@@ -457,7 +457,7 @@ export default function Portfolio() {
             }}
           >
             <a
-              href="#design"
+              href="#dev"
               style={{
                 padding: "14px 28px",
                 background: "#FF6B6B",
@@ -466,11 +466,11 @@ export default function Portfolio() {
                 borderRadius: 8,
               }}
             >
-              Design Work
+              Dev Projects
             </a>
 
             <a
-              href="#dev"
+              href="#design"
               style={{
                 padding: "14px 28px",
                 border: "1px solid rgba(255,255,255,0.2)",
@@ -479,38 +479,9 @@ export default function Portfolio() {
                 borderRadius: 8,
               }}
             >
-              Dev Projects
+              Design Work
             </a>
           </div>
-        </div>
-      </section>
-
-      {/* DESIGN */}
-
-      <section
-        id="design"
-        style={{
-          padding: "6rem 1.5rem",
-          maxWidth: 1200,
-          margin: "0 auto",
-        }}
-      >
-     <SectionTitle
-  title="Design Work"
-  subtitle="Creative solutions across branding, email marketing, digital campaigns, and user-focused visual design."
-/>
-
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns:
-              "repeat(auto-fit, minmax(280px, 1fr))",
-            gap: "1.5rem",
-          }}
-        >
-          {portfolioData.designProjects.map((item) => (
-            <DesignCard key={item.id} {...item} />
-          ))}
         </div>
       </section>
 
@@ -539,6 +510,35 @@ export default function Portfolio() {
         >
           {portfolioData.devProjects.map((item) => (
             <DevCard key={item.id} {...item} />
+          ))}
+        </div>
+      </section>
+
+      {/* DESIGN */}
+
+      <section
+        id="design"
+        style={{
+          padding: "6rem 1.5rem",
+          maxWidth: 1200,
+          margin: "0 auto",
+        }}
+      >
+     <SectionTitle
+  title="Design Work"
+  subtitle="Creative solutions across branding, email marketing, digital campaigns, and user-focused visual design."
+/>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns:
+              "repeat(auto-fit, minmax(280px, 1fr))",
+            gap: "1.5rem",
+          }}
+        >
+          {portfolioData.designProjects.map((item) => (
+            <DesignCard key={item.id} {...item} />
           ))}
         </div>
       </section>

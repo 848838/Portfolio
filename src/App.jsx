@@ -60,6 +60,13 @@ const portfolioData = {
     desc: "Modern social communication platform built with React Native, focused on real-time interactions and seamless user experience.",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7472915351580823552/",
   },
+    {
+    id: 5.9,
+    title: "Zypp",
+    category: "Mobile App IOS/Android",
+    desc: "Modern social communication platform built with React Native, focused on real-time interactions and seamless user experience.",
+    link: "",
+  },
   {
     id: 5.5,
     title: "GoSwift",
@@ -163,73 +170,7 @@ const SectionTitle = ({ title, subtitle }) => (
   </div>
 );
 
-const DesignCard = ({ title, category, desc, link }) => (
-  <a
-    href={link}
-    target="_blank"
-    rel="noreferrer"
-    style={{
-      textDecoration: "none",
-      width: "100%",
-    }}
-  >
-    <div
-      style={{
-        border: "1px solid rgba(255,255,255,0.08)",
-        padding: "2rem",
-        borderRadius: 12,
-        background: "rgba(255,255,255,0.03)",
-        textAlign: "center",
-        width: "100%",
-        transition: "0.3s ease",
-        cursor: "pointer",
-        height: "100%",
-      }}
-    >
-      <span
-        style={{
-          fontSize: 12,
-          color: "#FF6B6B",
-          textTransform: "uppercase",
-          letterSpacing: "0.1em",
-        }}
-      >
-        {category}
-      </span>
 
-      <h3
-        style={{
-          color: "#fff",
-          marginTop: "1rem",
-          marginBottom: "1rem",
-          fontSize: 24,
-        }}
-      >
-        {title}
-      </h3>
-
-      <p
-        style={{
-          color: "rgba(255,255,255,0.6)",
-          lineHeight: 1.7,
-          fontSize: 15,
-        }}
-      >
-        {desc}
-      </p>
-
-      <div
-        style={{
-          marginTop: "1.5rem",
-          color: "#FF6B6B",
-          fontSize: 14,
-        }}
-      >
-        View Project ↗
-      </div>
-    </div>
-  </a>
-);
 
 const DevCard = ({ title, category, desc, link }) => (
   <a
@@ -298,7 +239,73 @@ const DevCard = ({ title, category, desc, link }) => (
     </div>
   </a>
 );
+const DesignCard = ({ title, category, desc, link }) => (
+  <a
+    href={link}
+    target="_blank"
+    rel="noreferrer"
+    style={{
+      textDecoration: "none",
+      width: "100%",
+    }}
+  >
+    <div
+      style={{
+        border: "1px solid rgba(255,255,255,0.08)",
+        padding: "2rem",
+        borderRadius: 12,
+        background: "rgba(255,255,255,0.03)",
+        textAlign: "center",
+        width: "100%",
+        transition: "0.3s ease",
+        cursor: "pointer",
+        height: "100%",
+      }}
+    >
+      <span
+        style={{
+          fontSize: 12,
+          color: "#FF6B6B",
+          textTransform: "uppercase",
+          letterSpacing: "0.1em",
+        }}
+      >
+        {category}
+      </span>
 
+      <h3
+        style={{
+          color: "#fff",
+          marginTop: "1rem",
+          marginBottom: "1rem",
+          fontSize: 24,
+        }}
+      >
+        {title}
+      </h3>
+
+      <p
+        style={{
+          color: "rgba(255,255,255,0.6)",
+          lineHeight: 1.7,
+          fontSize: 15,
+        }}
+      >
+        {desc}
+      </p>
+
+      <div
+        style={{
+          marginTop: "1.5rem",
+          color: "#FF6B6B",
+          fontSize: 14,
+        }}
+      >
+        View Project ↗
+      </div>
+    </div>
+  </a>
+);
 export default function Portfolio() {
   const [active, setActive] = useState("home");
 

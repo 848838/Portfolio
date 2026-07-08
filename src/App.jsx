@@ -10,41 +10,8 @@ const portfolioData = {
   about:
      "Graphic Designer & Full-Stack Developer with 1.4+ years of professional experience at GMS Private Ltd. Specialized in branding, marketing technology, SEO, CMS management, and full-stack application development, delivering user-focused digital experiences from concept to deployment.",
 
- designProjects: [
-  {
-    id: 1,
-    title: "Email Campaigns",
-    category: "SFMC & Mailchimp",
-    desc: "Executed high-performing email marketing campaigns using Salesforce Marketing Cloud and Mailchimp, including automation, audience segmentation, and performance optimization.",
-   
-  },
 
-  {
-    id: 2,
-    title: "Brand & Social",
-    category: "Visual Design",
-    desc: "Created branding systems, social media creatives, advertising banners, and marketing collateral for digital campaigns.",
-    link: "https://www.behance.net/knowledgeworld11",
-  },
-
-  {
-    id: 3,
-    title: "CMS & SEO",
-    category: "Web Management",
-    desc: "Managed website content through CMS platforms while implementing SEO best practices to improve search visibility and user engagement.",
-   
-  },
-
-  {
-    id: 4,
-    title: "Triphive Adventures",
-    category: "Web Design",
-    desc: "Developed brand identity, promotional creatives, and digital assets to strengthen online presence and customer engagement.",
-    
-  },
-],
-
-  devProjects: [
+       devProjects: [
   {
     id: 5,
     title: "Chatrix",
@@ -97,6 +64,41 @@ const portfolioData = {
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7282757764383186944/",
   },
 ],
+ designProjects: [
+  {
+    id: 1,
+    title: "Email Campaigns",
+    category: "SFMC & Mailchimp",
+    desc: "Executed high-performing email marketing campaigns using Salesforce Marketing Cloud and Mailchimp, including automation, audience segmentation, and performance optimization.",
+   
+  },
+
+  {
+    id: 2,
+    title: "Brand & Social",
+    category: "Visual Design",
+    desc: "Created branding systems, social media creatives, advertising banners, and marketing collateral for digital campaigns.",
+    link: "https://www.behance.net/knowledgeworld11",
+  },
+
+  {
+    id: 3,
+    title: "CMS & SEO",
+    category: "Web Management",
+    desc: "Managed website content through CMS platforms while implementing SEO best practices to improve search visibility and user engagement.",
+   
+  },
+
+  {
+    id: 4,
+    title: "Triphive Adventures",
+    category: "Web Design",
+    desc: "Developed brand identity, promotional creatives, and digital assets to strengthen online presence and customer engagement.",
+    
+  },
+],
+
+
 };
 
 const NavBar = ({ active }) => {

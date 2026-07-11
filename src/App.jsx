@@ -341,7 +341,7 @@ function ProjectVisual({ project }) {
 
 const NavBar = ({ active }) => (
   <nav className="glass-nav">
-    {["home", "gallery", "about"].map((item) => (
+    {["home", "gallery", "about" ,"My Resume"].map((item) => (
       <a key={item} href={`#${item}`} className={`nav-link ${active === item ? "active" : ""}`}>
         {item}
       </a>
@@ -535,6 +535,10 @@ body{ background:#0A0A0D; }
       .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 12px 34px rgba(255,107,107,0.35); }
       .btn-ghost{ padding:14px 30px; border:1px solid var(--line); background:rgba(255,255,255,0.03); backdrop-filter:blur(10px); color:var(--ink); text-decoration:none; border-radius:999px; font-size:14px; font-weight:500; transition:0.25s ease; }
       .btn-ghost:hover{ border-color:rgba(245,245,242,0.3); background:rgba(255,255,255,0.06); }
+
+      
+            .btn-ghost-Download-Resume{ padding:14px 30px; border:1px solid var(--line); background:rgba(255,255,255,0.03); backdrop-filter:blur(10px); color:var(--ink); text-decoration:none; border-radius:999px; font-size:14px; font-weight:500; transition:0.25s ease; }
+      .btn-ghost-Download-Resume:hover{ border-color:rgba(245,245,242,0.3); background:rgba(255,255,255,0.06); }
       .scroll-cue{ margin-top:4rem; color:var(--ink-faint); display:flex; flex-direction:column; align-items:center; gap:6px; font-size:11px; letter-spacing:0.16em; text-transform:uppercase; }
       .scroll-cue svg{ animation:bob 2s ease-in-out infinite; }
       @keyframes bob{ 0%,100%{ transform:translateY(0);} 50%{ transform:translateY(6px);} }
@@ -651,6 +655,9 @@ body{ background:#0A0A0D; }
             </a>
             <a href="#about" className="btn-ghost">
               About me
+            </a>
+               <a href="file:///Users/apple/Downloads/Shubham_Jha_Resume-meself.pdf" className="btn-ghost-Download-Resume">
+            Resume
             </a>
           </div>
           <div className="scroll-cue mono">

@@ -182,3 +182,7 @@
     border-right-color: var(--border);
   }
 }
+
+.hero-name {
+  color: #ffffff;
+}

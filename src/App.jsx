@@ -154,20 +154,20 @@ devProjects: [
   designProjects: [
          {
       id: "s12423d",
-      title: "The GOAT's Legacy",
-      category: "Sports Poster • Digital Illustration",
-      medium: "Photoshop · Composite",
-      desc: "A cinematic tribute to Lionel Messi, combining bold typography, dynamic composition, and dramatic stadium lighting to celebrate one of football's greatest icons. Designed to evoke passion, energy, and the unforgettable moments that define his legacy.",
+      title: "FatherhoodX69",
+      category: "LOGO DESIGN • BRAND IDENTITY",
+      medium: "Esports Logo • Gaming Brand",
+      desc: "A bold esports-inspired logo designed for FatherhoodX69, featuring sharp geometric forms and a modern monogram that communicates strength, confidence, and competitive spirit. The layered blue gradients and angular construction create a memorable identity optimized for gaming, streaming, and digital branding.",
       link: "",
       image: graphic7,
       isRecent: true,        // top 3 recent work
     },
          {
       id: "s113224d",
-      title: "The GOAT's Legacy",
-      category: "Sports Poster • Digital Illustration",
+      title: "Heaven",
+      category: "LOGO DESIGN • VISUAL IDENTITY",
       medium: "Photoshop · Composite",
-      desc: "A cinematic tribute to Lionel Messi, combining bold typography, dynamic composition, and dramatic stadium lighting to celebrate one of football's greatest icons. Designed to evoke passion, energy, and the unforgettable moments that define his legacy.",
+      desc: "A sleek geometric monogram crafted to represent Heaven through clean architectural forms and metallic finishes. The silver and gold palette conveys sophistication, prestige, and innovation while maintaining a bold visual presence across both digital and print applications.",
       link: "",
       image: graphic6,
       isRecent: true,        // top 3 recent work
